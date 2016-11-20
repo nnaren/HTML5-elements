@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<link rel="shortcut icon" href="pig.ico"/>
+</head>
+<body>
+	<script type="text/javascript">
+		var myGlobalVar = "apples";
+		function myFunc(name){
+			var mayLocalVar = "sunny";
+			return ("Hello " + name + ". Taday is " + mayLocalVar + ".");
+		};
+		document.writeln(myFunc("Adam"));
+	</script>
+	<script type="text/javascript">
+		document.writeln("I like " + myGlobalVar);
+	</script>
+
+</body>
+</html>
